@@ -14,7 +14,9 @@ function Players() {
   this.playerName;
 }
 
-
+function reset() {
+  location.reload();
+}
 Players.prototype.roll = function() {
   if (this.diceRoll === 1) {
     this.roundTotal = 0;
@@ -24,11 +26,11 @@ Players.prototype.roll = function() {
   }
 }
 
-Players.prototype.hold = function(){
-  this.totalScore+=this.roundTotal;
-  this.roundTotal=0;
+Players.prototype.hold = function() {
+  this.totalScore += this.roundTotal;
+  this.roundTotal = 0;
   alert(this.playerName + " please pass dice to next player")
-  }
+}
 
 //user interface //
 
@@ -58,12 +60,12 @@ $(document).ready(function() {
     $("#roll-1").text(firstPlayer.diceRoll);
     firstPlayer.roll();
     $("#total-roll-1").text(firstPlayer.roundTotal);
-});
-    $("button#hold").click(function() {
-      firstPlayer.hold();
-      $("#total-1").text(firstPlayer.totalScore);
-      $("total-roll-1").empty();
-      $("#roll-1").empty();
+  });
+  $("button#hold").click(function() {
+    firstPlayer.hold();
+    $("#total-1").text(firstPlayer.totalScore);
+    $("total-roll-1").empty();
+    $("#roll-1").empty();
 
   });
 });
