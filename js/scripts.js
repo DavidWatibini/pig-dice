@@ -22,5 +22,8 @@ $(document).ready(function() {
     $(".content").show();
     $("#new-player").hide();
     $("#play").hide();
+    $(".middle").hide();
+    $("img").hide();
+
   });
 });

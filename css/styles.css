@@ -1,3 +1,6 @@
+body {
+  background-color: #EEEFA8;
+}
 .contact {
   cursor: pointer;
   color: #0088cc;
@@ -26,4 +29,31 @@ form {
   position: absolute;
   width: 90%;
   height: 90%;
+}
+#new-player h3 {
+  margin-left: 40%;
+  font-family: 'Charm', cursive;
+
+}
+h4 {
+  font-family: 'Charm', cursive;
+  color: blue;
+}
+.form-group {
+  font-family:'ZCOOL KuaiLe', cursive;
+}
+#play {
+  margin-left: 45%;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: blue;
+}
+.well {
+  font-family:'ZCOOL KuaiLe', cursive;
+  font-size: 17px;
+  text-align: center;
+}
+.well h3{
+  font-family:'Charm', cursive;;
+  font-size: 35px;
+  text-align: center;
 }
