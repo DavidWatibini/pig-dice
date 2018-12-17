@@ -1,19 +1,9 @@
-$(document).ready(function() {
-  $("#button-roll").click(function() {
-    var numbers = [1, 2, 3, 4, 5, 6]
-    var randomSum = 0;
-    var randomNumber = Math.floor(Math.random() * (numbers.length));
-    if(randomNumber===1) {
-      randomSum=0;
-      alert("You just rolled a 1. pass dice to next player")
-    } else if (randomNumber===2) {
-      randomSum+=2;
-
-    }
-    $('#roll').text(numbers[randomNumber]);
-    $('#toroll').text(numbers[randomNumber]);
-  });
-});
+function gameOn("","") {
+  this.player1 = "";
+  this.player2 = "";
+}
+var diceRoll= function () {
+  return Math.floor(Math.random() * 6)+1;
 
 //user interface //
 
