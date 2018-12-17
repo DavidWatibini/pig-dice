@@ -16,7 +16,8 @@ This game application that allows two players to play a dice game by tossing aro
 
 2.CSS
 
-3.JavaScript
+3.JavaScript.
+
 
 ## Project setup instruction/ installations
 
