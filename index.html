@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="login">
+        <img src="http://static1.squarespace.com/static/564f5f27e4b055a056329a6e/t/5787e9832994ca7e849ae857/1468524933140/sow-icon%28new%29.png?format=1500w" alt="Pig Dice" height="50px" width="50px"><h4 class="middle" >DICE</h4>
+        <div class="row">
+          <form id="new-player">
+            <div class="form-group">
+              <label for="new-first-player">First Player</label>
+              <input type="text" class="form-control" id="new-first-player">
+            </div>
+            <div class="form-group">
+              <label for="new-second-player">Second Player</label>
+              <input type="text" class="form-control" id="new-second-player">
+            </div>
+
+          </form>
+      </div>
+      <button id="play">ready to play</button>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="" alt="pig-dice" height="50px" width="50px"><p>dice</p>
+          </div>
+          <div class="col-md-10">
+            <h2>PIG DICE GAME</h2>
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3>LETS PLAY</h3>
+                </div>
+                <div class="panel-body">
+
+                  <div class="col-md-5">
+                    <div class="well">
+                      <label for="">Player 1</label>
+                        <h3 id="player-1-name"></h3>
+                      <label for="">Dice Roll</label>
+                        <h3 id="dice-roll-1"></h3>
+                      <label for="">Total Points</label>
+                        <h3 id="total-1"></h3>
+                    </div>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div class="well">
+                      <label for="">Roll</label>
+                        <button id="#dice-rolling-1">Roll</button>
+                      <label for="">Hold</label>
+                        <button type="button" name="Hold"></button>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-5">
+                    <div class="well">
+                      <label for="">Player 2</label>
+                        <h3 id="player-2-name"></h3>
+                      <label for="">Dice Roll</label>
+                        <div class="roll">
+                          <h3 id="dice-roll-2"></h3>
+                        </div>
+                      <label for="">Total Points </label>
+                        <h3 id="total-2"></h3>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="panel-footer">
+                  <p>(c)2018 David Makhanu Watibini</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

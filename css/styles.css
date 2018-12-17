@@ -1,0 +1,29 @@
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+.middle{
+  display: inline-block;
+}
+.container-fluid {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+form {
+  margin: 50px;
+}
+.form-group {
+  margin-right: 30px;
+  margin-left: 30px
+}
+.content{
+  display: none;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+}
