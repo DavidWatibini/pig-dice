@@ -61,3 +61,29 @@ h4 {
   font-size: 15px;
   font-family:'Charm', cursive;
 }
+#reset {
+  margin-top: 200px;
+  margin-left: 35px;
+}
+#hold {
+  margin-left: 35px;
+  margin-top: 50px;
+}
+.panel-heading {
+  text-align: center;
+  font-family: 'Charm', cursive;
+}
+.well {
+  background-color: #D3F3EE;
+}
+#total-1{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+#total-2{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+.panel-heading h3{
+  color:#BDB246;
+}
