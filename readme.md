@@ -41,7 +41,7 @@ or just use this
 | Players input there names and clicks ready to play button | game is shown |
 | first player clicks roll button | Dice rolls and numbers are generated/ dice rolls are added together to the round total|
 | first player clicks hold button | Dice holds and numbers stopped from been generated/total rounds are pushed to total score|
-| When a first player total score reaches 100 , game ends | player one Winner|
+| When a first player total score reaches 100 , game ends | player one displayed Winner.|
 
 ## Live link
 
