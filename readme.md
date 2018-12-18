@@ -36,12 +36,12 @@ or just use this
 
 ## BDD
 
-| Behavior        | Input           | Result |
-| ------------- |:-------------:| -----:|
-| Players inputs names and clicks ready to play button | Player 1 and Player 2 -Click ready to play | Goes to game |
-| Player 1 clicks roll button | Click roll button | Dice rolls and numbers are generated/ dice rolls are added together to the round total|
-| Player 1 clicks hold button | Click hold button | Dice holds and numbers stopped from been generated/total rounds are pushed to total score|
-| When a player's total score reaches 100 , game ends and the winner  shows | Player 1 total score = 100 | Winner|
+| Behavior        | Result |
+| ------------- |:----:|
+| Players input there names and clicks ready to play button | game is shown |
+| first player clicks roll button | Dice rolls and numbers are generated/ dice rolls are added together to the round total|
+| first player clicks hold button | Dice holds and numbers stopped from been generated/total rounds are pushed to total score|
+| When a first player total score reaches 100 , game ends | player one Winner|
 
 ## Live link
 

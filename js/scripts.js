@@ -1,22 +1,32 @@
 //business logic//
 
-var firstPlayer = "";
-var secondPlayer = "";
+var firstPlayer = "playerOne";
+var secondPlayer = "playertwo";
 
 var dice = function() {
-  return Math.floor((Math.random() * 6)) + 1;
-}
-
-function Players() {
-  this.diceRoll = 0;
-  this.roundTotal = 0;
-  this.totalScore = 0;
-  this.playerName;
+  var numbers = [1, 2, 3, 4, 5, 6]
+  return Math.floor(Math.random() * (numbers.length)) + 1;
 }
 
 function reset() {
   location.reload();
 }
+
+function Players() {
+  this.playerName;
+  this.diceRoll = 0;
+  this.roundTotal = 0;
+  this.totalScore = 0;
+}
+Players.prototype.empty = function() {
+  this.roundTotal=0;
+  this.diceRoll=0;
+}
+
+Players.prototype.switch = function(){
+
+}
+
 Players.prototype.roll = function() {
   if (this.diceRoll === 1) {
     this.roundTotal = 0;
@@ -29,7 +39,7 @@ Players.prototype.roll = function() {
 Players.prototype.hold = function() {
   this.totalScore += this.roundTotal;
   this.roundTotal = 0;
-  alert(this.playerName + " please pass dice to next player")
+  alert(this.playerName + " please pass dice to next player.")
 }
 
 //user interface //
